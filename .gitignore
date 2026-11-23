@@ -1,0 +1,26 @@
+# Virtual environment & Python cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project outputs & downloaded Kaggle artifacts (large plots, logs, checkpoints)
+outputs/
+kaggle_outputs/
+kaggle_parametric_outputs/
+.kaggle-outputs/
+
+# Saved PyTorch model weights (too large for Git)
+*.pth
+*.pt
+
+# API keys & secrets (NEVER commit these)
+kaggle.json
+.env
+
+# Jupyter & VS Code / OS temporary files
+.ipynb_checkpoints/
+.vscode/
+Thumbs.db
+.DS_Store
