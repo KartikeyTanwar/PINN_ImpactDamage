@@ -1,10 +1,4 @@
-# ============================================================
-# LOCAL CLI RUNNER
-# Example (quick local test):
-#   python run.py --velocity 200 --epochs 50 --n_col 1000 --lbfgs 20
-# Example (full training):
-#   python run.py --velocity 200 --epochs 2000 --n_col 10000 --lbfgs 300
-# ============================================================
+
 
 import argparse
 from datetime import datetime
