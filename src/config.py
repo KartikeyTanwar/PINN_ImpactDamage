@@ -1,7 +1,3 @@
-# ============================================================
-# GLOBAL CONFIG, ENVIRONMENT AUTO-DETECT & PATHS
-# Works seamlessly on Local VS Code, Kaggle GPU, and Colab
-# ============================================================
 
 import os
 import sys
